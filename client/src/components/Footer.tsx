@@ -1,4 +1,5 @@
 import { Fuel } from "lucide-react";
+import { Link } from "wouter";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -23,24 +24,24 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">바로가기</h3>
             <div className="space-y-2">
-              <a
+              <Link
                 href="/history"
                 className="block text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
               >
                 회사연혁
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/philosophy"
                 className="block text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
               >
                 경영철학
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/stations"
                 className="block text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
               >
                 지점안내
-              </a>
+              </Link>
             </div>
           </div>
         </div>
