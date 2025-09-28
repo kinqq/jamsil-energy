@@ -17,7 +17,7 @@ export default defineConfig({
   ],
 
   // 프로젝트 페이지면 '/<repo>/' 로, 루트/커스텀 도메인이면 '/'
-  base: "/jamsil-energy/",
+  base: "/",
 
   // root가 'client'라면 index.html은 client/ 아래에 있어야 함
   root: path.resolve(import.meta.dirname, "client"),
